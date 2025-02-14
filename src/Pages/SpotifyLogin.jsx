@@ -33,8 +33,3 @@ const SpotifyLogin = () => {
 };
 
 export default SpotifyLogin;
-
-console.log("CLIENT_ID:", import.meta.env.VITE_SPOTIFY_CLIENT_ID);
-console.log("REDIRECT_URI:", import.meta.env.VITE_SPOTIFY_REDIRECT_URI);
-console.log("AUTH_ENDPOINT:", import.meta.env.VITE_SPOTIFY_AUTH_ENDPOINT);
-console.log("SCOPES:", import.meta.env.VITE_SPOTIFY_SCOPES);

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Callback from "./components/custom/Callback";
 import SpotifyLogin from "./Pages/SpotifyLogin";
-import TopTracks from "./components/custom/TopTracks";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
             <Routes>
               <Route path="/" element={<SpotifyLogin />} />
               <Route path="/callback" element={<Callback />} />
-              <Route path="/dashboard" element={<TopTracks />} />
+              <Route path="/dashboard" element={<Dashboard />} />
             </Routes>
           </CardContent>
         </Card>

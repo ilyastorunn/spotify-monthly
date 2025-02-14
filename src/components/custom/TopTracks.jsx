@@ -19,6 +19,9 @@ const TopTracks = () => {
             },
           }
         );
+
+        console.log("Fetched top tracks:", response.data.items); // Konsolda test edelim
+
         setTracks(response.data.items);
       } catch (error) {
         console.error("Top Tracks Fetch Error:", error);
